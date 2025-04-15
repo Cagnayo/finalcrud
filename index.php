@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
     $result = mysqli_query($con, $sql);
 
     if ($result) {
-        echo "<script>alert('✅ Data inserted successfully!');</script>";
+        header ('location:read.php');
     } else {
         die("❌ Error: " . mysqli_error($con));
     }
@@ -26,10 +26,13 @@ if (isset($_POST['submit'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PHP Form Insert</title>
+  <title>Create User</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+  <div class="container">
+    <a href="read.php"> List of students</a>
+  </div>
   <div class="container mt-5">
     <form method="post" action="">
       <div class="mb-3">
