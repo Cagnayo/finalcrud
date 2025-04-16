@@ -28,6 +28,8 @@ include 'connection.php';
 $sql = "SELECT * FROM `list`";
 $result = mysqli_query($con, $sql);
 
+
+
 while ($row = mysqli_fetch_assoc($result)) {
     $id = $row['id'];
     $fname = $row['Fname'];
@@ -37,15 +39,15 @@ while ($row = mysqli_fetch_assoc($result)) {
     $num = $row['Mobile'];
 
     echo '<tr>
-        <th scope="row">' . $id -1 . '</th>
+        <th scope="row">' .$id.'</th>
         <td>' . $fname . '</td>
         <td>' . $lname . '</td>
         <td>' . $age . '</td>
         <td>' . $bday . '</td>
         <td>' . $num . '</td>
         <td> 
-    <a href="update.php" class= "btn btn-dark"> Update </a> 
-    <a href="delete.php" class= "btn btn-danger"> Delete </a> 
+    <a href="update.php?updateid=' . $id. '" class= "btn btn-dark"> Update </a> 
+    <a href="delete.php?deletedid='.$id.'" class= "btn btn-danger"> Delete </a> 
      
       
     </td>
