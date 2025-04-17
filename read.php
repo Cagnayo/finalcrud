@@ -13,6 +13,7 @@ include 'connection.php';
  <div class="container my-5">
  <table class="table">
   <thead>
+  <div data-bs-theme="dark">
     <tr>
       <th scope="col">#</th>
       <th scope="col">First Name</th>
@@ -22,6 +23,7 @@ include 'connection.php';
       <th scope="col">Mobile</th>
       <th scope="col">Action</th>
     </tr>
+</div>
   </thead>
   <tbody>
   <?php

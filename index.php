@@ -30,9 +30,13 @@ if (isset($_POST['submit'])) {
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
+  <div class="container mt-5 justify-content: space between"> <h6> PHP CRUD </h6>
+  <div class="my-5">
+<div class="container">
     <a href="read.php"> List of students</a>
-  </div>
+          </div>
+      </div>
+   </div>
   <div class="container mt-5">
     <form method="post" action="">
       <div class="mb-3">
