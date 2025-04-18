@@ -28,16 +28,18 @@ if (isset($_POST['submit'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Create User</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="container mt-5 justify-content: space between"> <h6> PHP CRUD </h6>
+  <div class="container1 mt-5 "> <h1> PHP CRUD </h1>
   <div class="my-5">
 <div class="container">
-    <a href="read.php"> List of students</a>
           </div>
       </div>
    </div>
-  <div class="container mt-5">
+   <div class="card" style= "width: 540px;">
+<div class="card-header"><a class= "list" href="read.php"> List of students</a> </div>
+   <div class="card" style="width: 500px;">
     <form method="post" action="">
       <div class="mb-3">
         <label class="form-label">First Name</label>
@@ -69,6 +71,8 @@ if (isset($_POST['submit'])) {
       </div>
     </form>
   </div>
+   </div>
+   
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>

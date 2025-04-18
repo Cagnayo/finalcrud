@@ -59,6 +59,7 @@ while ($row = mysqli_fetch_assoc($result)) {
   
      <div class="container">
     <a href="index.php"> Add Students </a>
+    
   </div>
   </tbody>
 </table>

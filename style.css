@@ -1,0 +1,70 @@
+/* Card Design */
+.card {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+   
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+.card .button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card .button:hover {
+    background-color: #0056b3;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #444;
+    margin-top: 10px;
+}
+/* Align "list of students" with first name and make it responsive */
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+ .list{
+    font-size: 1em;
+    color: #007bff;
+    text-decoration: none;
+    margin: 5px 0;
+
+}
+ .list:hover {
+    color: #b30027;
+    text-decoration: none;
+    
+}
