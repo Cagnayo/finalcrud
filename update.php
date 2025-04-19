@@ -58,6 +58,8 @@ if (isset($_POST['update'])) {
   <title>Update Record</title>
 </head>
 <body>
+<div class="card mt-5"  style= "width: 500px; display: flex; justify-content: center; align-items: center; margin: auto; padding-bottom: 20px;">
+  
   <div class="container mt-5">
     <h2>Update Student Record</h2>
     <form method="post">
@@ -89,6 +91,7 @@ if (isset($_POST['update'])) {
       <button type="submit" class="btn btn-primary" name="update">Update</button>
       <a href="read.php" class="btn btn-secondary">Back</a>
     </form>
+  </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
