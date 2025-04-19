@@ -38,7 +38,7 @@ if (isset($_POST['submit'])) {
       </div>
    </div>
    <div class="card" style= "width: 540px;">
-<div class="card-header"><a class= "list" href="read.php"> List of students</a> </div>
+<div class="card-header"><a class= "list" style ="font-size:25px;" href="read.php"> List of students</a> </div>
    <div class="card" style="width: 500px;">
     <form method="post" action="">
       <div class="mb-3">
